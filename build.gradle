@@ -4,7 +4,7 @@ apply plugin: 'maven'
 apply plugin: 'eclipse'
 
 def pluginName = "gaelyk-bootstrap-resources"
-version = "2.0.3"
+version = "2.0.4-SNAPSHOT"
 group = 'org.gaelyk'
 
 repositories {
