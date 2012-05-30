@@ -22,9 +22,9 @@ class TwitterBootstrapSpec extends Specification {
 		TwitterBootstrap.reset()
 		
 		expect:
-		TwitterBootstrap.instance.css 				== "/gpr/bootstrap/css/bootstrap.min.css"
-		TwitterBootstrap.instance.responsive 		== "/gpr/bootstrap/css/bootstrap-responsive.min.css"
-		TwitterBootstrap.instance.js				== "/gpr/bootstrap/js/bootstrap.min.js"
+		TwitterBootstrap.instance.css 				== "/gpr/css/bootstrap.min.css"
+		TwitterBootstrap.instance.responsive 		== "/gpr/css/bootstrap-responsive.min.css"
+		TwitterBootstrap.instance.js				== "/gpr/js/bootstrap.min.js"
 		TwitterBootstrap.instance.logo				== null
 		TwitterBootstrap.instance.brand				== "Gaelyk"
 	}
@@ -34,9 +34,9 @@ class TwitterBootstrapSpec extends Specification {
 		TwitterBootstrap.reset()
 		
 		expect:
-		TwitterBootstrap.instance.css 				== "/gpr/bootstrap/css/bootstrap.css"
-		TwitterBootstrap.instance.responsive 		== "/gpr/bootstrap/css/bootstrap-responsive.css"
-		TwitterBootstrap.instance.js				== "/gpr/bootstrap/js/bootstrap.js"
+		TwitterBootstrap.instance.css 				== "/gpr/css/bootstrap.css"
+		TwitterBootstrap.instance.responsive 		== "/gpr/css/bootstrap-responsive.css"
+		TwitterBootstrap.instance.js				== "/gpr/js/bootstrap.js"
 		TwitterBootstrap.instance.logo				== null
 		TwitterBootstrap.instance.brand				== "Gaelyk"
 	}
