@@ -3,6 +3,21 @@
 Gaelyk Bootstrap Resources plugins add [Twitter Bootstrap](http://twitter.github.com/bootstrap/) 
 resources to the Gaelyk application.
 
+#Installation
+
+The plugin is distributed using Maven Central as `org.gaelyk:gaelyk-bootstrap-resources:2.0.3`. 
+To install the plugin declare it as `compile` dependency in the Gradle build file.
+
+```
+  dependencies {
+     ...
+     compile 'org.gaelyk:gaelyk-bootstrap-resources:2.0.3'
+     ...
+  }
+```
+
+
+
 #Usage
 ```html
 <!doctype html>
@@ -43,6 +58,8 @@ The plugin add `twitterBootstrap` variable into your templates and scripts. The 
   * `logo` - path to your logo you want to show in the navbar
   * `brand` - brand to be shown in navbar
   * `gap` - top body margin used when navbar is present
+
+The plugin serves minified versions in production and non-minified in development mode.
 
 
 #Customization
