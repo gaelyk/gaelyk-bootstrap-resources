@@ -32,9 +32,9 @@ modifyPom {
 		url 'https://github.com/musketyr/gaelyk-bootstrap-resources-plugin'
 
 		scm {
-			url 'scm:git@github.com:musketyr/gaelyk-bootstrap-resources-plugin.git'
-			connection 'scm:git@github.com:musketyr/gaelyk-bootstrap-resources-plugin.git'
-			developerConnection 'scm:git@github.com:musketyr/gaelyk-bootstrap-resources-plugin.git'
+			url 'scm:git@github.com:gaelyk/gaelyk-bootstrap-resources-plugin.git'
+			connection 'scm:git@github.com:gaelyk/gaelyk-bootstrap-resources-plugin.git'
+			developerConnection 'scm:git@github.com:gaelyk/gaelyk-bootstrap-resources-plugin.git'
 		}
 
 		licenses {
