@@ -19,7 +19,7 @@ group = 'org.gaelyk'
 dependencies {
 	groovy "org.codehaus.groovy:groovy-all:${ext.gaelykGroovyVersion}"
 	compile	"org.gaelyk:gaelyk-resources:${ext.gaelykLatestVersion}"
-	testCompile 'org.spockframework:spock-core:${ext.gaelykSpockVersion}'
+	testCompile "org.spockframework:spock-core:${ext.gaelykSpockVersion}"
 	testCompile	"com.google.appengine:appengine-api-stubs:${ext.gaelykAppEngineVersion}"
 	testCompile "com.google.appengine:appengine-testing:${ext.gaelykAppEngineVersion}"
 }
