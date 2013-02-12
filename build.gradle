@@ -13,7 +13,7 @@ apply from: 'https://raw.github.com/gaelyk/gaelyk/master/common.gradle'
 apply from: 'https://raw.github.com/gaelyk/gaelyk/master/common-nexus.gradle'
 
 archivesBaseName = "gaelyk-bootstrap-resources"
-version = "2.3.0-SNAPSHOT"
+version = "${ext.gaelykLatestVersion}"
 group = 'org.gaelyk'
 
 dependencies {
