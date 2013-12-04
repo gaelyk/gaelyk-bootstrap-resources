@@ -16,6 +16,8 @@ archivesBaseName = "gaelyk-bootstrap-resources"
 version = ext.gaelykLatestVersion
 group = 'org.gaelyk'
 
+repositories { mavenLocal() }
+
 dependencies {
 	groovy "org.codehaus.groovy:groovy-all:${ext.gaelykGroovyVersion}"
 	compile	"org.gaelyk:gaelyk-resources:${ext.gaelykLatestVersion}"
